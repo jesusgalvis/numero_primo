@@ -6,7 +6,7 @@ int main(int argc, char *argv[]) {
 	int a;
 	
 	printf ("Introduce Un numero: ");
-	scanf  ("%i",&a);
+	scanf  ("%d",&a);
 	
 	if ((a % 2)== 1){
 		printf ("El Numero es primo. \n");
